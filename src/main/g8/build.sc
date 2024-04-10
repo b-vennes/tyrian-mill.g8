@@ -22,5 +22,7 @@ object $project_name$ extends RootModule with ScalaJSModule with ScalafmtModule 
     def ivyDeps = Agg(ivy"org.scalameta::munit::$munit_version$")
 
     def testFramework = "munit.Framework"
+
+    override def moduleKind = T(mill.scalajslib.api.ModuleKind.CommonJSModule)
   }
 }

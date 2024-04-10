@@ -17,7 +17,7 @@ We recommend you have two terminal tabs open in the directory containing this RE
 In the first, we'll run mill tasks.
 
 ```sh
-./mill $project_name$.fastLinkJS
+./mill fastLinkJS
 ```
 
 From now on, we can recompile the app with `fastLinkJS` or `fullLinkJS` _**but please note** that the `tyrianapp.js` file in the root is expecting the output from `fastLinkJS`_.
@@ -44,5 +44,5 @@ Otherwise, it's identical.
 
 ## Supported Build Tools
 
-Tyrian works equally well with sbt or Mill. Most of the examples are given in sbt, and this g8 template uses sbt too. However there is a [Mill example](https://github.com/PurpleKingdomGames/tyrian/tree/main/examples/mill) project that serves as a good starting point.
+Tyrian works equally well with sbt or Mill. Most of the examples are given in sbt, but this g8 template uses Mill. However there is a [Mill example](https://github.com/PurpleKingdomGames/tyrian/tree/main/examples/mill) project that serves as a good starting point.
 
